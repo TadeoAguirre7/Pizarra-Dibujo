@@ -62,7 +62,7 @@ function updateSizeOnScreen() {
 }
 
 increaseBtn.addEventListener('click', () => {
-    size += 5
+    size += 1
 
     if(size > 50) {
         size = 50
@@ -72,10 +72,10 @@ increaseBtn.addEventListener('click', () => {
 })
 
 decreaseBtn.addEventListener('click', () => {
-    size -= 5
+    size -= 1
 
-    if(size < 5) {
-        size = 5
+    if(size < 1) {
+        size = 1
     }
 
     updateSizeOnScreen()
