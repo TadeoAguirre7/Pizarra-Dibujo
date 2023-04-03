@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+.title{
+  padding: 10px;
+  color: grey;
+}
+
 body {
   background-color: #eec9e9;
   display: flex;
@@ -22,7 +27,7 @@ canvas {
 }
 
 .toolbox {
-  background-color: rgb(91, 166, 227);
+  background-color: rgb(134, 47, 174);
   border-radius: 15%;
   display: flex;
   width: 800px;
